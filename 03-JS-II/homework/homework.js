@@ -44,7 +44,7 @@ function estaEnRango(numero) {
   // Tu código:
   if (numero < 50 && numero > 20){
     return true;
-  } else if (!(numero > 50 && numero <20)){
+  } else if (!(numero < 50 && numero > 20)){
     return false;
   }
 }
